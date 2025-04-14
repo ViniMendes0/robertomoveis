@@ -22,7 +22,7 @@ const Trabalhos = () => {
 
   return (
     <div className="bg-cover bg-center min-h-screen p-10" style={{ backgroundImage: "url('/fundo.jpg')" }}>
-      <h2 className="text-center text-white text-3xl font-bold mb-10">Trabalhos</h2>
+      <h2 className="text-center text-white text-3xl font-bold mb-10 mt-6">Trabalhos</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {trabalhos.map((trabalho) => (
           <div key={trabalho.id} className="relative bg-white/20 backdrop-blur-lg rounded-2xl p-6 shadow-lg text-center">
